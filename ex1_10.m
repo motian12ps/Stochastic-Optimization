@@ -1,5 +1,13 @@
 function ex1_10()
 
+%%%%%%%%%%%%%%%%
+
+%Author : Tianyi Chen
+
+% Date  : 2/21/2016
+
+%%%%%%%%%%%%%%%%
+
 theta0 = [0 , 3]';
 max_iter = 6;
 iter = 0;

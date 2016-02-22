@@ -52,8 +52,3 @@ function [fvalue] = fun(theta)
     fvalue = - ( theta(3) - theta(2) )^2 * ( theta(3) - theta(1) )^2 * ( theta(2) - theta(1) )^2;
 end
 
-function [g] = grad(theta)
-    g = zeros(size(theta));
-    g(1) = 4*(theta(1) - 2)^3 + 2*(theta(1) - 2*theta(2) );
-    g(2) = -4*(theta(1) - 2*theta(2) );
-end

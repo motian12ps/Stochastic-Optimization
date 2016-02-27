@@ -9,7 +9,6 @@ function runall()
 % Get control parameters.
 parms = ex2_9spec;
 
-ex2_9( parms );
 
 %% Part (a)
 fprintf('Part (a)\n');

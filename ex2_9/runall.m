@@ -34,7 +34,7 @@ for i = 1 : length(rhos)
         loss_0   = loss_0 + Info.loss0/ rep;  % not necessary to average
     end
     
-    fprintf('rho: %8.4e. Average Loss: %8.4e. Initial Loss: %8.4e. Ratio: %8.4e. \n', parms.rho, loss_avg, loss_0, loss_avg/loss_0);
+    fprintf('rho: %8.4e. Average Loss: %8.4e. Initial Loss: %8.4e. Normalized Loss: %8.4e. \n', parms.rho, loss_avg, loss_0, loss_avg/loss_0);
 end
 fprintf('==================================================\n');
 
@@ -59,7 +59,7 @@ for i = 1 : length(rhos)
         loss_0   = loss_0 + Info.loss0/ rep;  % not necessary to average
     end
     
-    fprintf('rho: %8.4e. Average Loss: %8.4e. Initial Loss: %8.4e. Ratio: %8.4e. \n', parms.rho, loss_avg, loss_0, loss_avg/loss_0);
+    fprintf('rho: %8.4e. Average Loss: %8.4e. Initial Loss: %8.4e. Normalized Loss: %8.4e. \n', parms.rho, loss_avg, loss_0, loss_avg/loss_0);
 end
 fprintf('==================================================\n');
 

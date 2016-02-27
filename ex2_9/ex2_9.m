@@ -29,6 +29,7 @@ while 1
         % fill in outputinfo structure
         OutputInfo.theta = theta;
         OutputInfo.loss  = fun(theta);
+        OutputInfo.loss0 = l_val_0;
         %fprintf('p = %d, rho = %8.4e\n', p, rho);
         %fprintf('Initial Loss Value: %8.4e. Final Loss Value: %8.4e\n', l_val_0, OutputInfo.loss);
         %fprintf('===================================================================\n');
